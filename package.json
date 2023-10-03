@@ -41,12 +41,6 @@
   "eslintConfig": {
     "extends": "react-app"
   },
-  "husky": {
-    "hooks": {
-      "pre-commit": "npm run prettier-format && npm run lint",
-      "pre-push": ""
-    }
-  },
   "browserslist": {
     "production": [
       ">0.2%",
